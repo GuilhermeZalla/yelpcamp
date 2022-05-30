@@ -1,0 +1,22 @@
+/* Import Colors */
+
+@import './variables/colors/colors.scss';
+
+/* Import Fonts */
+
+@import 'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap';
+@import './variables/fonts/fonts.scss';
+@import './variables/common/common.scss';
+
+/* Import React Componentes */
+
+@import './components/landing-page/landing-page.scss';
+@import './components/landing-page/page-body/page-body.scss';
+@import './components/landing-page/page-cover/page-cover.scss';
+@import './components/search-page/search-page.scss';
+@import './components/signin-page/signin-page.scss';
+@import './components/signin-page/signin-cover/signin-cover.scss';
+@import './components/signin-page/signin-form/signin-form.scss';
+@import './components/add-campground-page/add-campground-page.scss';
+@import './components/add-campground-page/add-campground-form/add-campground-form.scss';
+@import './components/individual-campground-page/individual-campground-page.scss';

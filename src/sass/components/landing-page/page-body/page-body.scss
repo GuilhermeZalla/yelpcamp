@@ -1,0 +1,101 @@
+.article {
+    padding: 30px;
+    width: 100%;
+    .article__title {
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+    .article__paragraph {
+        font-size: .90rem;
+        line-height: .6cm;
+        margin: 1rem 0;
+    }
+    .article__list {
+        font-size: .80rem;
+        .article__item {
+            margin: 1rem 0;
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                font-size: .70em;
+                content: "\f00c";
+                background-color: rgb(82, 185, 82);
+                border-radius: 50px;
+                padding: 5px;
+                color: $clr-secondary;
+                margin-right: 10px;
+            }
+        }
+    }
+    .article__button {
+        @include button-style($clr-secondary, $clr-primary, none, none, 20px, 5px, auto, bold);
+        margin: 10px 0 0 0;
+        font-size: 1em;
+    }
+    .article__subtitle {
+        font-weight: 600;
+        margin: 0 0 1rem 0;
+    }
+    .article__div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .is-widescreen-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+    .article {
+        padding: 30px;
+        .article__title {
+            font-size: 1.7rem;
+        }
+        .article__paragraph {
+            font-size: 1.2rem;
+        }
+        .article__list {
+            font-size: 1rem;
+        }
+        .article__subtitle {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .body {
+        flex-basis: 70%;
+        .header {
+            padding: 30px 20% 0 20%;
+            margin-bottom: 10%;
+            .header__logo {
+                width: 10vw;
+            }
+        }
+        .article {
+            padding: 0 20%;
+            .article__title {
+                font-size: 3em;
+            }
+            .article__paragraph {
+                font-size: 1.2em;
+            }
+            .article__list {
+                font-size: 1rem;
+            }
+            .article__subtitle {
+                font-size: 1.2rem;
+            }
+            .article__footer {
+                margin-top: 10%;
+            }
+        }
+        .is-widescreen-only {
+            display: block;
+        }
+    }
+}

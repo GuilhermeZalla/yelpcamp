@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@mixin button-style ($color, $background-color, $border, $outline, $padding, $border-radius, $width, $fnt-weight) {
+    color: $color;
+    background-color: $background-color;
+    border: $border;
+    outline: $outline;
+    padding: $padding;
+    border-radius: $border-radius;
+    width: $width;
+    font-weight: $fnt-weight;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.aside-signin-cover {
+    background-color: $clr-netrual;
+    padding: 30px 20px;
+    .aside__quote {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    .quote-author {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        .author__picture {
+            margin-right: 15px;
+        }
+        .author__name {
+            font-weight: 600;
+            font-size: 1em;
+        }
+        .author__hobby {
+            font-size: .90em;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aside-signin-cover {
+        padding: 10% 50px 0 50px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    .aside-signin-cover {
+        padding: 10% 100px 0 100px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .aside-signin-cover {
+        flex-basis: 40%;
+        margin: 0;
+        padding: 10% 100px;
+        .aside__quote {
+            font-size: 2em;
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .aside-signin-cover {
+        padding: 15% 100px;
+    }
+}

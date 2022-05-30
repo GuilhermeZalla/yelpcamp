@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: $fnt-general;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container__landing-page {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+@media screen and (min-width: 991px) {
+    .container__landing-page {
+        flex-wrap: nowrap;
+    }
+}

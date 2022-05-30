@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.form {
+    legend {
+        margin: 1.3rem 0;
+    }
+    .main__title {
+        font-size: 2em;
+        font-weight: 800;
+    }
+    .main__label {
+        display: block;
+    }
+    .main__input {
+        width: 100%;
+        margin: 15px 0;
+        border: none;
+        outline: none;
+        background-color: $clr-netrual;
+        padding: 15px;
+        border-radius: 5px;
+    }
+}

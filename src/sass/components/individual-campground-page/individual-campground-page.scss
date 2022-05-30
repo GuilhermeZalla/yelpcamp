@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.main-individual-campground {
+    padding: 15px;
+    .main__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .main__list {
+            display: inherit;
+            align-items: center;
+            &:first-child {
+                .main__item {
+                    &:first-child {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            .main__link {
+                color: $clr-primary;
+            }
+            .main__header-button {
+                @include button-style($clr-secondary, $clr-primary, none, none, 15px, 5px, auto, bold);
+                margin-left: 1rem;
+            }
+            &.is-mobile {
+                background-color: $clr-netrual;
+                display: none;
+                padding: 15px;
+                text-align: right;
+                .main__button {
+                    margin: 1rem 0 0 0;
+                }
+            }
+        }
+        .main__mobile-menu {
+            background-color: $clr-netrual;
+            padding: 5px;
+        }
+    }
+    .main__button {
+        @include button-style($clr-secondary, $clr-primary, none, none, 15px, 5px, 100%, bold);
+        margin: 1em 0 2em 0;
+    }
+    .campground__container {
+        display: flex;
+        margin: 20px 0;
+    }
+    .aside__map {
+        border: 1px solid $clr-individual-campground-box;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 2rem;
+        &>figure {
+            width: 100%;
+            &>img {
+                max-width: 100%;
+                min-width: 100%;
+                max-height: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    }
+    .article__campground-description {
+        padding: 15px;
+        border: 1px solid $clr-individual-campground-box;
+        border-radius: 5px;
+        .article__header {
+            width: 100%;
+            &>figure {
+                width: inherit;
+                &>img {
+                    max-width: 100%;
+                    min-width: 100%;
+                    max-height: 100%;
+                    min-height: 100%;
+                    object-fit: cover;
+                    display: block;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .article__title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 20px 0;
+            &>span {
+                font-size: .80em;
+                font-weight: normal;
+            }
+        }
+        .article__paragraph {
+            font-size: 1em;
+            line-height: .5cm;
+            margin-bottom: 15px;
+        }
+        .article__author {
+            font-style: italic;
+            font-size: .85em;
+        }
+    }
+    .comments__container {
+        padding: 5px 20px 30px 20px;
+        margin: 3rem 0;
+        border: 1px solid $clr-individual-campground-box;
+        border-radius: 5px;
+        .comments__list {
+            padding: 20px;
+        }
+        .comments__item {
+            padding: 15px 0;
+            border-bottom: 1px solid $clr-individual-campground-box;
+            &:last-child {
+                border: none;
+            }
+        }
+        .comments__title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            &>span {
+                font-size: .80em;
+                font-weight: normal;
+            }
+        }
+        .comments__paragraph {
+            margin: 15px 0;
+        }
+        .comments__btn {
+            @include button-style($clr-secondary, $clr-primary, none, none, 15px, 5px, auto, bold);
+            float: right;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .campground__container {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    .main-individual-campground {
+        padding: 30px 50px;
+        .individual-campground__container {
+            justify-content: center;
+            align-items: center;
+        }
+        .campground__container {
+            padding: 0 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .main-individual-campground {
+        padding: 15px 15%;
+        .campground__container {
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .aside__map {
+            margin-right: 15%;
+            height: 30%;
+            width: 800px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+  "campground": [
+    {
+      "id": "MountUlap",
+      "url_compressed": "https://i.imgur.com/QDZrSdQ.jpg",
+      "url_high_quality": "https://i.imgur.com/uKpZOO1.png",
+      "name": "Mount Ulap",
+      "about": "One of the most famous hikes in Benguet is Mt Ulap in Itogon.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$140.99/night"
+    },
+    {
+      "id": "CalaguasIslands",
+      "url_compressed": "https://i.imgur.com/dVFzjvx.jpg",
+      "url_high_quality": "https://i.imgur.com/QMxQc3w.jpg",
+      "name": "Calaguas Islands",
+      "about": "A paradise of islands that can rival the white sand beauty of Boracay.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$139.99/night"
+    },
+    {
+      "id": "OnayBeach",
+      "url_compressed": "https://i.imgur.com/7otHCRA.jpg",
+      "url_high_quality": "https://i.imgur.com/19qRaqe.jpg",
+      "name": "Onay Beach",
+      "about": "This is one of the best beach camping sites, beautiful and pristine.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$210/night"
+    },
+    {
+      "id": "SevenSistersWaterfall",
+      "url_compressed": "https://i.imgur.com/NrrWApj.jpg",
+      "url_high_quality": "https://i.imgur.com/zhy5SJY.jpg",
+      "name": "Seven Sisters Waterfall",
+      "about": "The Seven Sisters Waterfall is the 39th tallest waterfall in Norway.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$199.99/night"
+    },
+    {
+      "id": "LatikRiverside",
+      "url_compressed": "https://i.imgur.com/y2v6fo3.jpg",
+      "url_high_quality": "https://i.imgur.com/kna88ZQ.jpg",
+      "name": "Latik Riverside",
+      "about": "Philippines is one of the most dazzling countries in all of Asia.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$120/night"
+    },
+    {
+      "id": "BuloySprings",
+      "url_compressed": "https://i.imgur.com/XBtfoAE.jpg",
+      "url_high_quality": "https://i.imgur.com/QNJY666.jpg",
+      "name": "Buloy Springs",
+      "about": "This is one of the best beach camping sites, beautiful and pristine.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": "$299.99/night"
+    },
+    {
+      "id": "PoçosdeCaldas",
+      "url_compressed": "https://media-cdn.tripadvisor.com/media/photo-s/0a/5d/9a/5d/pocos-de-caldas.jpg",
+      "url_high_quality": "https://media-cdn.tripadvisor.com/media/photo-s/0a/5d/9a/5d/pocos-de-caldas.jpg",
+      "name": "Poços de Caldas",
+      "about": "Poços de Caldas é uma das cidades mais famosas em Minas Gerais",
+      "description": "Poços de Caldas é uma das cidades mais famosas em Minas Gerais onde o público pode ir passear, tirar foto no Cristo Redentor, ir no bondinho da cidade. É um lugar bastante turístico e existem locais para acampar. ",
+      "price": "$250",
+      "apiId": "db.json"
+    }
+  ]
+}

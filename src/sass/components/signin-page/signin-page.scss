@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.signin__container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-signin-page {
+    width: 100%;
+    padding: 30px 20px;
+    .main__header {
+        border: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header__link {
+            font-size: .90em;
+            color: $clr-primary;
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                font-size: 1.2rem;
+                content: "\2190";
+                color: $clr-primary;
+                margin-right: 5px;
+            }
+        }
+    }
+    .main__button {
+        @include button-style($clr-secondary, $clr-primary, none, none, 15px, 5px, 100%, bold);
+        margin-bottom: 20px;
+    }
+    .main__link {
+        color: hsla(239, 87%, 56%, 0.863);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .signin__container {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    .main-signin-page {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 990px) {
+    .main-signin-page {
+        padding: 30px 40px;
+        .main__header {
+            margin-bottom: 5%;
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .signin__container {
+        height: 100vh;
+    }
+    .main-signin-page {
+        flex-basis: 60%;
+        padding: 30px 10%;
+        .main__header {
+            margin-bottom: 10%;
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .main-signin-page {
+        .main__header {
+            margin-bottom: 25%;
+        }
+    }
+}
